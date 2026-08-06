@@ -1,4 +1,4 @@
-# Zombie Game
+# Zombie Game (v1.0)
 
 A 2D zombie survival game created for my first-year university JavaScript module.
 
