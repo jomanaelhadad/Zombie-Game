@@ -25,6 +25,8 @@ A 2D zombie survival game created for my first-year university JavaScript module
 
 <img width="1453" height="889" alt="image" src="https://github.com/user-attachments/assets/71df2aca-0acc-4572-94f1-80c3e47bf2b5" />
 
+<img width="1852" height="985" alt="image" src="https://github.com/user-attachments/assets/d7a1e08f-f020-4609-9484-d86f1a289444" />
+
 ### Improvements 
 - Converting the project to OOP with newer features
 - Adding different types of enemies in the game (easier with OOP)
