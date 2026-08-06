@@ -31,4 +31,5 @@ A 2D zombie survival game created for my first-year university JavaScript module
 - Converting the project to OOP with newer features
 - Adding different types of enemies in the game (easier with OOP)
 - Adding other characters in the game where the player can also buy in the shop
-- Implementing themes in setting menu where the game color scheme can be changed to different colors 
+- Implementing themes in setting menu where the game color scheme can be changed to different colors
+- Adding a real tile set using tile software editors like tiled (https://www.mapeditor.org/) 
