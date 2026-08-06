@@ -1,0 +1,269 @@
+body{
+    padding: 5em; 
+    margin: 1em; 
+    font-family: "game";
+    margin-left: auto;
+    margin-right: auto;  
+    font-size: 20px;
+    background-color:rgb(146, 120, 194);
+    width: 75%; 
+}
+
+@font-face {
+  font-family: "game"; 
+  src: url(PixelifySans-Regular.ttf);
+}
+
+
+canvas{ 
+    background-color: rgb(128, 75, 128);
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+   
+
+
+    border: 10px double rgb(0, 0, 0);
+    box-shadow: 40px 40px 10px rgba(17, 12, 44, 0.61); 
+
+}
+nav{
+    display: flex;
+    margin: 2em;
+    gap: 5em; 
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1.5em;
+    padding: 1em; 
+    
+    border: 15px double rgb(110, 33, 33);
+    background-color: white;
+    font-size: 45px;
+}
+.btn{
+    background-color: #E27FE2; 
+    padding: 1em; 
+    text-align: center;
+    margin: 1em; 
+    gap: 2em; 
+    color: white;
+    font-size: 25px;
+    
+    border: 10px double rgb(110, 33, 33);
+    text-decoration: none;
+    box-shadow: 15px 15px 5px rgba(17, 12, 44, 0.61);  
+}
+a:hover{
+    color: rgb(172, 24, 24);
+}
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    padding: 0.2em;
+
+}
+
+#game{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+small{
+    padding: 0.5em; 
+    display: block; 
+    margin-top: 1em; 
+}
+
+.smallBtn{
+    background-color: #E27FE2; 
+    padding: 0.5em; 
+    text-align: center;
+    margin: 1em; 
+    display: block; 
+    color: white;
+    font-size: 20px;
+    width: 20%; 
+    
+    border: 10px double rgb(110, 33, 33);
+    text-decoration: none;
+    box-shadow: 15px 15px 5px rgba(17, 12, 44, 0.61); 
+}
+#cheats{
+    background-color: rgba(255, 255, 255, 0.575); 
+    padding: 2em;
+    width: 95%; 
+    border: 10px double rgb(110, 33, 33);
+    box-shadow: 25px 25px 5px rgba(17, 12, 44, 0.61); 
+}
+.gameBtn{
+    background-color: #E27FE2; 
+    padding: 0.5em; 
+    text-align: center;
+
+    color: white;
+    font-size: 20px; 
+
+    border: 10px double rgb(110, 33, 33);
+    text-decoration: none;
+    box-shadow: 15px 15px 5px rgba(17, 12, 44, 0.61); 
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    width: 50%; 
+    padding: 0.5em;
+}
+.link:hover{
+    color:red;
+}
+
+#home{
+    background-color: rgb(184, 125, 184); 
+    padding: 4em; 
+    padding-bottom: 5em; 
+    margin: 5.5em; 
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    width: 65%; 
+    border: 15px double rgb(110, 33, 33);
+    box-shadow: 40px 40px 10px rgba(17, 12, 44, 0.692); 
+}
+
+table{
+    border: 1px solid black;  
+    padding: 0.5em;
+    font-size: 14px; 
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgba(255, 255, 255, 0.575); 
+}
+table th {
+    background-color: white;
+    border: 1px solid black; padding: 1em;}
+table td{
+    background-color: rgba(102, 102, 102, 0.178); 
+    border:1px solid black;  
+    padding: 0.5em;}
+
+#important{
+    padding: 1em; 
+    align-items: center;
+    margin-right: auto; 
+    margin-left: auto; 
+    background-color: rgba(255, 255, 255, 0.575); 
+}
+#cheats h2{
+    border-bottom: 2px solid black; 
+}
+
+
+/* DOM */
+
+.title{
+    background-color: rgba(255, 255, 255, 0.836);
+    color: rgb(192, 93, 192); 
+    position: absolute;
+    top: 180px;
+    max-width: 60%; 
+    backdrop-filter: blur(1em);
+    padding: 0.4em;
+    font-size: 40px;
+    transform: translateX(-50%); 
+    text-align: center;
+    left: 50%; 
+    display: none; 
+}
+#menuTitle{
+    font-size: 50px; 
+    background-color: white; 
+    box-shadow: none;
+
+}
+#menuTitle:hover{
+    background-color: rgb(192, 93, 192); 
+    color: white; 
+}
+#settingTitle{
+    border: none;
+    top: 170px;
+    width: 350px;
+}
+
+#settingsBtn{
+    top: 280px;
+    font-size: 16px; 
+
+}
+#difficulty{
+    top: 420px;
+    font-size: 16px; 
+}
+#difficulty:hover{
+    background-color: rgb(255, 255, 255); 
+    color: rgb(192, 93, 192); 
+}
+#settingsBtn:hover{
+    background-color: white; 
+    color: rgb(192, 93, 192); 
+}
+#shopText{
+    background-color:  rgb(192, 93, 192); 
+    color: white; 
+}
+#menuText{
+    color: rgb(255, 212, 255); 
+    top: 580px; 
+    font-size: 17px;
+    padding: 1em; 
+    max-width: 70%; 
+}
+#instructions{
+    top: 330px; 
+    padding: 2em; 
+    font-size: 16px;
+    background-color:  rgb(192, 93, 192); 
+    color: white;  
+}
+
+.title:hover{
+    background-color: rgb(192, 93, 192); 
+    color: white; 
+}
+#gamePaused{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    padding: 0.1em;
+    max-width: 20%;
+    top: 135px;
+}
+
+.text{
+    position: absolute;
+    top: 310px;
+    font-size: 12px;
+    transform: translateX(-50%); 
+    text-align: center;
+    width: 400px; 
+    color: white; 
+    padding: 1.5em; 
+    left: 50%; 
+    max-width: 45%; 
+    margin: 0.5em; 
+    margin-left: auto; 
+    margin-right: auto;
+    display: none; 
+}
