@@ -19,10 +19,6 @@ A 2D zombie survival game created for my first-year university JavaScript module
  - JavaScript
  - HTML
  - CSS
-
-### On server 
-project is also available on the UCC school server https://cs1.ucc.ie/~je7/cgi-bin/ca2/
-
 ### Preview of the Game 
 <img width="1894" height="925" alt="image" src="https://github.com/user-attachments/assets/f4f31969-8d3c-4273-a99a-98447a2501d6" />
 
